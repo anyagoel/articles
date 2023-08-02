@@ -11,6 +11,9 @@
 		BD52757B2A7A91FC00AF6A8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52757A2A7A91FC00AF6A8B /* ContentView.swift */; };
 		BD52757D2A7A91FD00AF6A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD52757C2A7A91FD00AF6A8B /* Assets.xcassets */; };
 		BD5275802A7A91FD00AF6A8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD52757F2A7A91FD00AF6A8B /* Preview Assets.xcassets */; };
+		BD5275872A7A9A9D00AF6A8B /* CSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5275862A7A9A9D00AF6A8B /* CSView.swift */; };
+		BD5275892A7A9C3D00AF6A8B /* EEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5275882A7A9C3D00AF6A8B /* EEView.swift */; };
+		BD52758B2A7A9E2F00AF6A8B /* GeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52758A2A7A9E2F00AF6A8B /* GeoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BD52757A2A7A91FC00AF6A8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD52757C2A7A91FD00AF6A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD52757F2A7A91FD00AF6A8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD5275862A7A9A9D00AF6A8B /* CSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSView.swift; sourceTree = "<group>"; };
+		BD5275882A7A9C3D00AF6A8B /* EEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EEView.swift; sourceTree = "<group>"; };
+		BD52758A2A7A9E2F00AF6A8B /* GeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				BD5275782A7A91FC00AF6A8B /* articlesApp.swift */,
 				BD52757A2A7A91FC00AF6A8B /* ContentView.swift */,
+				BD5275862A7A9A9D00AF6A8B /* CSView.swift */,
+				BD5275882A7A9C3D00AF6A8B /* EEView.swift */,
+				BD52758A2A7A9E2F00AF6A8B /* GeoView.swift */,
 				BD52757C2A7A91FD00AF6A8B /* Assets.xcassets */,
 				BD52757E2A7A91FD00AF6A8B /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD52758B2A7A9E2F00AF6A8B /* GeoView.swift in Sources */,
+				BD5275892A7A9C3D00AF6A8B /* EEView.swift in Sources */,
 				BD52757B2A7A91FC00AF6A8B /* ContentView.swift in Sources */,
+				BD5275872A7A9A9D00AF6A8B /* CSView.swift in Sources */,
 				BD5275792A7A91FC00AF6A8B /* articlesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
