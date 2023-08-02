@@ -18,13 +18,13 @@ struct EEView: View {
                 VStack{
                     
                     Text("STEMtelligence")
-                        .font(.title)
+                        .font(.custom("Georgia", size: 30))
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                     
                     
                     Text("Electrical Engineering: All Articles")
-                        .font(.largeTitle)
+                        .font(.custom("Georgia", size: 40))
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(red: 0.34, green: 0.51, blue: 0.34))
@@ -35,8 +35,9 @@ struct EEView: View {
                     
                     Link(destination: URL(string: "https://www.astrodynetdi.com/blog/recent-inventions-electrical-engineering-industry")!) {
                         Text("1. Recent Inventions in the Electrical Engineering Industry")
-                            .font(.title)
+                          
                             .foregroundColor(.black)
+                            .font(.custom("Georgia", size: 25))
                     } // link 1
                     Group{
                     Text("-----------------------------------------------")
@@ -44,7 +45,7 @@ struct EEView: View {
                     
                     Link(destination: URL(string: "https://scitechdaily.com/defying-kirchhoff-efficient-energy-harvesting-with-law-breaking-device/")!) {
                         Text("2. Defying Kirchhoff: Efficient Energy Harvesting With “Law-Breaking” Device")
-                            .font(.title)
+                            .font(.custom("Georgia", size: 25))
                             .foregroundColor(.black)
                     } // link 2
                     
@@ -53,7 +54,7 @@ struct EEView: View {
                     
                     Link(destination: URL(string: "https://scitechdaily.com/protons-to-power-next-gen-memory-devices-and-neuromorphic-computing-chips/")!) {
                         Text("3. Protons To Power Next-Gen Memory Devices and Neuromorphic Computing Chips")
-                            .font(.title)
+                            .font(.custom("Georgia", size: 25))
                             .foregroundColor(.black)
                     } // link 3
                     
@@ -87,7 +88,7 @@ struct EEView: View {
                     
                     
                     Text("Made with love by: Anya, Angela, Rebecca, Amaryllis")
-                        .font(.title3)
+                            .font(.custom("Georgia", size: 20))
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(red: 0.34, green: 0.51, blue: 0.34))
                 } // group

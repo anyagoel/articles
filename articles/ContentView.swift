@@ -20,13 +20,13 @@ struct ContentView: View {
                     
                     Group {
                         Text("STEMtelligence")
-                            .font(.title)
+                            .font(.custom("Georgia", size: 27))
                             .fontWeight(.bold)
                             .multilineTextAlignment(.center)
                         
                         
                         Text("Biology: All Articles")
-                            .font(.largeTitle)
+                            .font(.custom("Georgia", size: 40))
                             .fontWeight(.semibold)
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color(red: 0.34, green: 0.51, blue: 0.34))
@@ -41,8 +41,8 @@ struct ContentView: View {
                         
                         Link(destination: URL(string: "https://www.sci.news/biology/caecilian-snake-venom-resistance-12126.html")!) {
                             Text("1. Biologists Discover Unprecedented Resistance to Snake Venom in Caecilians")
-                                .font(.title)
                                 .foregroundColor(.black)
+                                .font(.custom("Georgia", size: 25))
                         } // link 1
                         
                     }
@@ -52,8 +52,8 @@ struct ContentView: View {
                         
                         Link(destination: URL(string: "https://www.sci.news/biology/honeybee-decision-making-12079.html")!) {
                             Text("2. New Research Reveals How Honeybees Make Fast, Accurate Decisions")
-                                .font(.title)
                                 .foregroundColor(.black)
+                                .font(.custom("Georgia", size: 25))
                         } // link 2
                         
                         Text("-----------------------------------------------")
@@ -62,44 +62,50 @@ struct ContentView: View {
                         Link(destination: URL(string: "https://www.sciencedaily.com/releases/2023/08/230801163220.htm")!) {
                             Text("3. Organoids revolutionize research on respiratory infections")
                                 .foregroundColor(.black)
-                                .font(.title)
+                                .font(.custom("Georgia", size: 25))
                         } // link 3
                         
                         Text("-----------------------------------------------")
                             .foregroundColor(.gray)
-                            
                         
-                        Group {
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                        }
+                        Link(destination: URL(string: "https://www.nytimes.com/2021/04/08/health/coronavirus-mrna-kariko.html")!) {
+                            Text("4. Kati Kariko Helped Shield the World From the Coronavirus")
+                                .foregroundColor(.black)
+                                .font(.custom("Georgia", size: 25))
+                        } // link 4
                         
-                        Group {
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                            Spacer()
-                        }
+                        Text("-----------------------------------------------")
+                            .foregroundColor(.gray)
+                        
+                        
+                        Link(destination: URL(string: "https://www.technologyreview.com/2018/11/25/138962/exclusive-chinese-scientists-are-creating-crispr-babies/")!) {
+                            Text("5. Chinese scientists are creating CRISPR babies")
+                                .foregroundColor(.black)
+                                .font(.custom("Georgia", size: 25))
+                                
+                        } // link 5
+                    }
+                    Group {
+                        Text("-----------------------------------------------")
+                            .foregroundColor(.gray)
+                        
+                        
+                        Link(destination: URL(string: "https://www.pnas.org/doi/abs/10.1073/pnas.2211283119")!) {
+                            Text("6. Directional takeoff, aerial righting, and adhesion landing of semiaquatic springtails")
+                                .foregroundColor(.black)
+                                .font(.custom("Georgia", size: 25))
+                                .font(.title)
+                        } // link 6
+                        
+                        Text("-----------------------------------------------")
+                       .foregroundColor(.gray)
+                        
                         Spacer()
                         Spacer()
-                     
-
+                        Spacer()
+                        
                         Text("Made with love by: Anya, Angela, Rebecca, Amaryllis")
-                            .font(.title3)
+                            .font(.custom("Georgia", size: 20))
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color(red: 0.34, green: 0.51, blue: 0.34))
                     }

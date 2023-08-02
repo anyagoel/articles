@@ -18,13 +18,13 @@ struct CSView: View {
                 VStack{
                     
                     Text("STEMtelligence")
-                        .font(.title)
+                        .font(.custom("Georgia", size: 30))
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                     
                     
                     Text("Computer Science: All Articles")
-                        .font(.largeTitle)
+                        .font(.custom("Georgia", size: 40))
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(red: 0.34, green: 0.51, blue: 0.34))
@@ -35,7 +35,7 @@ struct CSView: View {
                     
                     Link(destination: URL(string: "https://atztechnology.com/list-of-latest-technologies-in-computer-science/")!) {
                         Text("1. Latest Technologies in Computer Science")
-                            .font(.title)
+                            .font(.custom("Georgia", size: 25))
                             .foregroundColor(.black)
                     } // link 1
                     Group{
@@ -44,7 +44,7 @@ struct CSView: View {
                         
                         Link(destination: URL(string: "https://www.sciencedaily.com/releases/2023/07/230713192858.htm")!) {
                             Text("2. Researchers establish criterion for nonlocal quantum behavior in networks")
-                                .font(.title)
+                                .font(.custom("Georgia", size: 25))
                                 .foregroundColor(.black)
                         } // link 2
                         
@@ -53,7 +53,7 @@ struct CSView: View {
                         
                         Link(destination: URL(string: "https://www.quantamagazine.org/post-quantum-cryptography-scheme-is-cracked-on-a-laptop-20220824/")!) {
                             Text("3. ‘Post-Quantum’ Cryptography Scheme Is Cracked on a Laptop")
-                                .font(.title)
+                                .font(.custom("Georgia", size: 25))
                                 .foregroundColor(.black)
                         } // link 3
                         
@@ -89,8 +89,10 @@ struct CSView: View {
                         Spacer()
                         
                         
+                        
+                        
                         Text("Made with love by: Anya, Angela, Rebecca, Amaryllis")
-                            .font(.title3)
+                            .font(.custom("Georgia", size: 20))
                             .multilineTextAlignment(.center)
                             .foregroundColor(Color(red: 0.34, green: 0.51, blue: 0.34))
                     } // group
